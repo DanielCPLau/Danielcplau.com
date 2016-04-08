@@ -1,0 +1,50 @@
+.navbar {
+  width: 100%;
+}
+
+.name {
+  font-size: 50px;
+  margin-top: 0px;
+  margin-left: 120px;
+  font-weight: bold;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.entire-background {
+  background-size: cover;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+}
+
+li {
+  display: inline;
+  width: 100px;
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+
+}
+
+.active {
+    background-color: ;
+    border-bottom:#ce3844 solid 3px;
+}
+
