@@ -1,3 +1,3 @@
-function showName() {
-  $("#myname").fadeIn(2000);
-}
+$(window).scroll(function(){
+    $(".galaxy").css("opacity", 1 - $(window).scrollTop() / 1900);
+});
