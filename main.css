@@ -9,6 +9,17 @@
     font-style: normal;
 
 }
+@font-face {
+    font-family: 'rock_saltregular';
+    src: url('RockSalt-webfont.eot');
+    src: url('RockSalt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('RockSalt-webfont.woff') format('woff'),
+         url('RockSalt-webfont.ttf') format('truetype'),
+         url('RockSalt-webfont.svg#rock_saltregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
   width: 100%;
@@ -79,7 +90,7 @@ li a:hover {
 .fill {
   font-size: 80px;
   text-align: center;
-  font-family: 'jinkyregular', cursive;
+  font-family: 'rocksalt_regular', cursive;
   color: #fff;
   text-shadow: 4px 4px rgba(0, 0, 0, 0.1);
   margin-top: 300px;
