@@ -1,29 +1,29 @@
-html,body
-{
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+.backgrounds {
+  background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Nebula-Wallpaper-EI13.jpg?raw=true");
+  height: 1080px;
+  margin: 0px;
+  overflow: auto;
 }
 
 .navbar-header {
-  text-align: center;
-  font-weight: bold;
   color: white;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 30px;
-}
-
-.name {
-
+  font-size: 100px;
 }
 
 ul {
   list-style-type: none;
   margin: 0 auto;
-  width: 700px;
-  padding: 0;
+  width: 750px;
+  padding: 0 auto;
   overflow: hidden;
 }
 
@@ -40,10 +40,9 @@ li a {
   text-align: center;
   padding: 15px 15px;
   text-decoration: none;
-  font-family: 'Nunito', sans-serif;
-  font-size: 11px;
-  font-weight: bold;
-  
+  font-family: 'Oswald', sans-serif;
+  font-size: 13px;
+  font-weight: BOLD;
 }
 
 li a:hover {
@@ -57,8 +56,24 @@ li a:hover {
   border-bottom: #ce3844 solid 2px;
 }
 
-.post-content {
-  margin: -400px;
-  position: relative;
+.fill {
+  font-size: 80px;
   text-align: center;
+  font-family: 'Lobster Two', cursive;
+  color: #fff;
+  text-shadow: 4px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 300px;
+}
+
+.fadeout {
+  position: absolute;
+  top: 810px;
+  left: 0px;
+  width: 100%;
+  height: 40%;
+  background: linear-gradient(top, rgba( 255, 255, 255, 255) 0%, rgba( 255, 255, 255, 1) 100%);
+  background: -moz-linear-gradient(top, rgba( 255, 255, 255, 0) 0%, rgba( 255, 255, 255, 1) 100%);
+  background: -ms-linear-gradient(top, rgba( 255, 255, 255, 0) 0%, rgba( 255, 255, 255, 1) 100%);
+  background: -o-linear-gradient( top, rgba( 255, 255, 255, 0) 0%, rgba( 255, 255, 255, 1) 100%);
+  background: -webkit-linear-gradient( top, rgba( 255, 255, 255, 0) 0%, rgba( 255, 255, 255, 1) 75%);
 }
