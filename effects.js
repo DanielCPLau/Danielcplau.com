@@ -4,7 +4,7 @@ $(window).scroll(function(){
 
 $('a').click(function(){
     $('html, body').animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top
+        scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
     }, 500);
     return false;
 });
