@@ -18,7 +18,7 @@ body {
   overflow-x: hidden;
 }
 
-.galaxy {
+.stars {
   background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/switzerland_alps_mountains_night_beautiful_landscape_99817_1600x1200.jpg?raw=true");
   height: 1040px;
   margin: 0px;
@@ -30,8 +30,11 @@ body {
   background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Foggy-City-4.jpg?raw=true");
   margin: 0px;
   height: 1300px;
+  background-size: cover;
   overflow: auto;
 }
+
+
 
 .navbar-header {
   color: white;
@@ -99,7 +102,7 @@ li a:hover {
   text-align: center;
   color: white;
   text-shadow: 4px 4px rgba(0, 0, 0, 0.1);
-  font-family: 'rocksalt';
+  font-family: 'rocksalt', cursive;
   -ms-transform: rotate(-7deg);
   -webkit-transform: rotate(-7deg);
   transform: rotate(-7deg);
