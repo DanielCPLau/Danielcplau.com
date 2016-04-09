@@ -2,9 +2,9 @@ $(window).scroll(function(){
     $(".stars").css("opacity", 1 - $(window).scrollTop() / 1900);
 });
 
-$('a').click(function(){
+$('a[href*=#]').click(function(event){
     $('html, body').animate({
-        scrollTop: $('[name="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+        scrollTop: $( $.attr(this, 'href') ).offset().top
     }, 500);
-    return false;
+    event.preventDefault();
 });
