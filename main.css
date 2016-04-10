@@ -28,12 +28,26 @@ body {
 .fog {
   background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Foggy-City-4.jpg?raw=true");
   margin: 0px;
-  height: 1300px;
+  height: 845px;
   background-size: cover;
   overflow: auto;
+  filter: brightness(95%);
+}
+.temp {
+  background-image: url("http://www.recreativemedia.ca/images/Portfolio05.png");
+  margin: 0px;
+  height: 800px;
+  background-size:cover;
+  overflow:auto;
 }
 
-
+.connect {
+  background-image: url('https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Images/imageedit_1_2585037376.jpg?raw=true');
+  margin: 0px;
+  height: 900px;
+  background-size: cover;
+  overflow:auto;
+}
 
 .navbar-header {
   color: white;
@@ -41,7 +55,7 @@ body {
   font-size: 100px;
 }
 
-ul {
+ul.ulnav {
   list-style-type: none;
   margin: 0 auto;
   width: 750px;
@@ -49,14 +63,14 @@ ul {
   overflow: hidden;
 }
 
-li {
+li.navbarli {
   display: inline;
   width: 100px;
   float: left;
   margin: 20px;
 }
 
-li a {
+li a.navfont {
   display: block;
   color: white;
   text-align: center;
@@ -68,7 +82,7 @@ li a {
   text-shadow: 4px 4px rgba(0, 0, 0, 0.1);
 }
 
-li a:hover {
+li a.navfont:hover {
   color: white;
   text-decoration: none;
   border-bottom: #ce3844 solid 1px;
@@ -128,9 +142,49 @@ h5.title {
   font-weight: bold;
   margin-bottom: 25px;
 }
+
 p {
   display: block;
   text-align: justify;
   font-family: 'Montserrat';
   font-weight: bold;
+}
+
+div.contactme {
+  text-align:center;
+  border: 1px solid white;
+  width: 500px;
+  height: 100px;
+  margin: auto;
+  margin-top: 120px;
+  margin-bottom: 100px;
+}
+
+.contactTitle {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  margin-top: 17px;
+}
+
+.containers {
+ margin: auto; 
+ max-width: 400px;
+}
+
+a.facebook:hover {
+  
+}
+
+a.linkedin:hover {
+  
+}
+
+a.github:hover {
+  
+}
+
+a.twitter:hover {
+  
 }
