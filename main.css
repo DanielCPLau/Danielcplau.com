@@ -34,7 +34,7 @@ body {
   filter: brightness(95%);
 }
 .temp {
-  background-image: url("http://www.recreativemedia.ca/images/Portfolio05.png");
+  background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Images/1506271_642286765832258_692446235_o.jpg?raw=true");
   margin: 0px;
   height: 1100px;
   background-size:cover;
@@ -148,6 +148,29 @@ p {
   text-align: justify;
   font-family: 'Montserrat';
   font-weight: bold;
+}
+
+div.tempp {
+  text-align:center;
+  border: 10px solid white;
+  border-style: ridge;
+  border-top-style: dotted;
+  border-bottom-style: dotted;
+  width: 1300px;
+  height: 100px;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.temppp {
+  font-size: 60px;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  
 }
 
 div.contactme {
