@@ -155,20 +155,20 @@ div.tempp {
   text-align:center;
   border: 6px solid white;
   border-style: ridge;
-  width: 1100px;
+  width: 800px;
   height: 100px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 200px;
   margin-bottom: 100px;
 }
 
 .temppp {
-  font-size: 60px;
+  font-size: 40px;
   text-align: center;
   font-family: 'Raleway', sans-serif;
   color: white;
   font-weight: bold;
-  margin-top: 10px;
+  margin-top: 24px;
   
 }
 
