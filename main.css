@@ -18,7 +18,7 @@ body {
 }
 
 .stars {
-  background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/switzerland_alps_mountains_night_beautiful_landscape_99817_1600x1200.jpg?raw=true");
+  background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Images/dark-nature-wide-wallpaper.jpg?raw=true");
   height: 1040px;
   margin: 0px;
   overflow: auto;
@@ -33,6 +33,7 @@ body {
   overflow: auto;
   filter: brightness(95%);
 }
+
 .temp {
   background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Images/1506271_642286765832258_692446235_o.jpg?raw=true");
   margin: 0px;
@@ -152,10 +153,8 @@ p {
 
 div.tempp {
   text-align:center;
-  border: 10px solid white;
+  border: 6px solid white;
   border-style: ridge;
-  border-top-style: dotted;
-  border-bottom-style: dotted;
   width: 1300px;
   height: 100px;
   margin: auto;
