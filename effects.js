@@ -8,3 +8,14 @@ $('a[href*=#]').click(function(event){
     }, 500);
     event.preventDefault();
 });
+
+var activeUnderline = 0;
+$(function() {
+  $(".navbarli").click(function() {
+    if (activeUnderline != 0) {
+      $(activeUnderline).removeClass("active");
+    }
+    $(this).addClass("active");
+    activeUnderline = this;
+  });
+});
