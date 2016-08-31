@@ -18,7 +18,7 @@ body {
 }
 
 .stars {
-  background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Images/dark-nature-wide-wallpaper.jpg?raw=true");
+  background-image: url("https://raw.githubusercontent.com/BluesBleu/Dan ... m/gh-pages/Images/dark-nature-wide-wallpaper.jpg");
   height: 1040px;
   margin: 0px;
   overflow: auto;
@@ -26,7 +26,7 @@ body {
 }
 
 .fog {
-  background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Foggy-City-4.jpg?raw=true");
+  background-image: url("https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Foggy-City-4.jpg");
   margin: 0px;
   height: 1000px;
   background-size: cover;
@@ -35,7 +35,7 @@ body {
 }
 
 .temp {
-  background-image: url("https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Images/1506271_642286765832258_692446235_o.jpg?raw=true");
+  background-image: url("https://raw.githubusercontent.com/BluesBleu/Dan ... s/Images/1506271_642286765832258_692446235_o.jpg");
   margin: 0px;
   height: 1100px;
   background-size:cover;
@@ -43,7 +43,7 @@ body {
 }
 
 .connect {
-  background-image: url('https://github.com/BluesBleu/Danielcplau.com/blob/gh-pages/Images/imageedit_1_2585037376.jpg?raw=true');
+  background-image: url('https://raw.githubusercontent.com/BluesBleu/Dan ... u.com/gh-pages/Images/imageedit_1_2585037376.jpg');
   margin: 0px;
   height: 900px;
   background-size: cover;
