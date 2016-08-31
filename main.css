@@ -1,3 +1,9 @@
+<IfModule mod_headers.c>
+  <FilesMatch "\.(js|css|xml|gz)$">
+    Header append Vary: Accept-Encoding
+  </FilesMatch>
+</IfModule>
+
 @font-face {
     font-family: 'rocksalt';
     src: url('RockSalt-webfont.eot');
