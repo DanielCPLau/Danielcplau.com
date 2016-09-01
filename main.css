@@ -26,7 +26,7 @@ body {
 }
 
 .fog {
-  background-image: url("https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Foggy-City-4.jpg");
+  background-image: url("https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Images/1506271_642286765832258_692446235_o.jpg");
   margin: 0px;
   height: 1000px;
   background-size: cover;
@@ -35,7 +35,7 @@ body {
 }
 
 .temp {
-  background-image: url("https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Images/1506271_642286765832258_692446235_o.jpg");
+  background-image: url("https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Foggy-City-4.jpg");
   margin: 0px;
   height: 1100px;
   background-size:cover;
