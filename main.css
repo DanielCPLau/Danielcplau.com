@@ -29,7 +29,7 @@ body {
   background-image: url("https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Images/1506271_642286765832258_692446235_o.jpg");
   margin: 0px;
   height: auto;
-  max-width: 100%;
+  width: 100%;
   background-size: auto;
   filter: brightness(95%);
   overflow:hidden;
