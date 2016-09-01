@@ -29,7 +29,7 @@ body {
   
   margin: 0px;
   height: 1200px;
-  background-size: cover;
+  background-size: contain;
   overflow: auto;
   filter: brightness(95%);
   background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.1));
