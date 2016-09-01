@@ -19,17 +19,16 @@ body {
 
 .stars {
   background-image: url("https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Images/dark-nature-wide-wallpaper.jpg");
-  height: 1200px;
+  height: 1040px;
   margin: 0px;
   overflow: hidden;
   opacity: 1;
 }
 
 .self {
-  
   margin: 0px;
   height: 1200px;
-  background-size: contain;
+  background-size: auto;
   filter: brightness(95%);
   background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.1));
   background-image: url("https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Images/1506271_642286765832258_692446235_o.jpg");
