@@ -32,8 +32,8 @@ body {
   background-size: cover;
   overflow: auto;
   filter: brightness(95%);
-  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.1), 
-  url("https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Images/1506271_642286765832258_692446235_o.jpg"));
+  background: linear-gradient(to top, rgba(0,0,0,0), rgba(0,0,0,.1));
+  background-image: url("https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Images/1506271_642286765832258_692446235_o.jpg");
 }
 
 .temp {
