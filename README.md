@@ -1,6 +1,6 @@
 # Danielcplau.com
 
-/**
+/
  * Name: Daniel CP Lau
  * /
  
