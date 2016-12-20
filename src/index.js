@@ -1,5 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import routes from '../config/routes';
+import { Router, Route, hashHistory, IndexRoute } from 'react-router'
 
-ReactDOM.render(routes , document.querySelector('.container'));
+//routes
+import Contact from '../src/components/Contact';
+import Home from '../src/components/Home';
+import Site from '../src/components/Site';
+
+ReactDOM.render(
+	<Router history={hashHistory}>
+		<Route path='/' component={Site}>
+			<IndexRoute component={Home} />
+			<Route path='contact' component={Contact} />
+		</Route>
+	</Router>
+	, document.querySelector('.container'));

@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import Contact from './Contact';
 import NavBar from './NavBar';
 
 class Site extends Component {
 	render() {
 		return (
 			<div style={fullPageStyle}>
+				<NavBar/>
 				{this.props.children}
 			</div>
 		)
