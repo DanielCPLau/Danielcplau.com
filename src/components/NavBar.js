@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router';
 
 class NavBar extends Component {
 	render() {
@@ -6,15 +7,11 @@ class NavBar extends Component {
 			<nav className='navbar-fixed-top'>
 			  <div className='container-fluid'>
 			    <ul style={ulnav}>
-			      <li style={navbarli}><a style={navfont} href="#home">HOME</a></li>
-			      <li style={navbarli}><a style={navfont} href="#about">ABOUT</a></li>
-			      <li style={navbarli}>
-			      <h1 style={navbarHeader}>
-			        DC|PL
-			      </h1>
-			      </li>
-			      <li style={navbarli}><a style={navfont} href="#projects">PROJECTS</a></li>
-			      <li style={navbarli}><a style={navfont} href="#connect">CONTACT</a></li>
+			      <Link to='/'><li style={navbarli}><a style={navfont} href="#home">HOME</a></li></Link>
+			      <Link to='/about'><li style={navbarli}><a style={navfont} href="#about">ABOUT</a></li></Link>
+			      <Link to='/'><li style={navbarli}><h1 style={navbarHeader}>DC|PL</h1></li></Link>
+			      <Link to='/projects'><li style={navbarli}><a style={navfont} href="#projects">PROJECTS</a></li></Link>
+			      <Link to='/contact'><li style={navbarli}><a style={navfont} href="#connect">CONTACT</a></li></Link>
 			    </ul>
 			  </div>
 			</nav>
@@ -34,7 +31,13 @@ var ulnav = {
   margin: '0 auto',
   width: '750px',
   padding: '0 auto',
-  overflow: 'hidden'
+  overflow: 'hidden',
+  WebkitTouchCallout: 'none',
+  WebkitUserSelect: 'none',
+  KhtmlUserSelect: 'none',
+  MozUserSelect: 'none',
+  MsUserSelect: 'none',
+  userSelect: 'none'
 }
 
 var navbarli = {
