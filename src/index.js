@@ -1,16 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Provider } from 'react-redux';
-import { createStore, applyMiddleware } from 'redux';
-import thunk from 'redux-thunk';
+import routes from '../config/routes';
 
-import Site from './components/Site'
-import reducers from './reducers';
-
-let store = createStore(reducers, applyMiddleware(thunk));
-
-ReactDOM.render(
-  <Provider store={store}>
-    <Site/>
-  </Provider>
-  , document.querySelector('.container'));
+ReactDOM.render(routes , document.querySelector('.container'));
