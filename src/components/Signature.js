@@ -6,38 +6,35 @@ class Signature extends Component {
   constructor() {
     super();
     this.state = {ran: 0}
-
   }
-  restartAnimation() {
+  restartAnimation(delayVal) {
     var elemSvg = this.refs.svg;
-    elemSvg.classList.remove(css(styles.transparentSig));
-    setTimeout(function() {elemSvg.classList.add(css(styles.presentedSig))}, 50);
+    if (this.state.ran == 1) {
+      elemSvg.classList.add(css(styles.transparentSig));
+    }
     var elemArr = [this.refs.D1, this.refs.D2, this.refs.dot, this.refs.L, this.refs.aniel, this.refs.au];
     var cssStyleArr = [css(styles.aniD1),css(styles.aniD2),css(styles.aniDot),css(styles.aniL),css(styles.aniAniel),css(styles.aniAu)];
     for (var i = 0; i < elemArr.length; i++) {
       this.readdClass(elemArr[i], cssStyleArr[i]);
     }
+    console.log(delayVal);
+    setTimeout(function() {elemSvg.classList.remove(css(styles.transparentSig))}, delayVal);
+  }
+  readdClass(elem, cssStyleAnimation) {
+    elem.classList.remove(cssStyleAnimation);
+    setTimeout(function() {elem.classList.add(cssStyleAnimation)}, 50);
   }
   animateOnce() {
     if (this.state.ran == 1) {
       return;
     }
     this.setState({ran: 1});
-    this.restartAnimation();
-  }
-  readdClass(elem, cssStyleAnimation) {
-    elem.classList.remove(cssStyleAnimation);
-    setTimeout(function() {elem.classList.add(cssStyleAnimation)}, 50);
-  }
-  resetAnimation() {
-    var elemSvg = this.refs.svg;
-    elemSvg.classList.remove(css(styles.presentedSig));
-    setTimeout(function() {elemSvg.classList.add(css(styles.transparentSig))}, 50);
+    this.restartAnimation(650);
   }
   render() {
     return (
-      <div onClick={this.restartAnimation.bind(this)}>
-        <svg className={css(styles.transparentSig)} ref="svg" width="406" height="367" xmlns="http://www.w3.org/2000/svg">
+      <div>
+        <svg className={css(styles.transparentSig)} ref="svg" onClick={this.restartAnimation.bind(this, 650)} width="406" height="367" xmlns="http://www.w3.org/2000/svg">
           <g>
             <title>Layer 1</title>
 
@@ -63,61 +60,61 @@ class Signature extends Component {
 }
 
 const D1 = {
-  '0%': {
+  '5%': {
       strokeDashoffset: '158'
   },
 
-    '7%': {
-        strokeDashoffset: '0'
-    }
+  '6%': {
+      strokeDashoffset: '0'
+  }
 };
 
 const D2 = {
-    '0%, 11%': {
+    '0%, 9%': {
         strokeDashoffset: '900'
     },
 
-    '30%': {
+    '18%': {
         strokeDashoffset: '0'
     }
 };
 
 const aniel = {
-    '0%, 30%': {
+    '0%, 17%': {
         strokeDashoffset: '1000'
     },
 
-    '72%': {
+    '34%': {
         strokeDashoffset: '0'
     }
 };
 
 const dot = {
-    '0%, 45%': {
+    '0%, 26%': {
         strokeDashoffset: '12'
     },
 
-    '60%': {
+    '28%': {
         strokeDashoffset: '0'
     }
 };
 
 const L = {
-    '0%, 48%': {
+    '0%, 31%': {
         strokeDashoffset: '700'
     },
 
-    '77%': {
+    '42%': {
         strokeDashoffset: '0'
     }
 };
 
 const au = {
-    '0%, 65%': {
+    '0%, 38%': {
         strokeDashoffset: '400'
     },
 
-    '100%': {
+    '56%': {
         strokeDashoffset: '0'
     }
 };
@@ -149,32 +146,32 @@ var strokeau = {
 const styles = StyleSheet.create({
   aniD1: {
     animationName: [D1],
-    animationDuration: '4s',
+    animationDuration: '12s',
     animationIterationCount: '1'
   },
   aniD2: {
     animationName: [D2],
-    animationDuration: '4s',
+    animationDuration: '10s',
     animationIterationCount: '1'
   },
   aniAniel: {
     animationName: [aniel],
-    animationDuration: '4s',
+    animationDuration: '10s',
     animationIterationCount: '1'
   },
   aniDot: {
     animationName: [dot],
-    animationDuration: '4s',
+    animationDuration: '10s',
     animationIterationCount: '1'
   },
   aniL: {
     animationName: [L],
-    animationDuration: '5s',
+    animationDuration: '10s',
     animationIterationCount: '1'
   },
   aniAu: {
     animationName: [au],
-    animationDuration: '5s',
+    animationDuration: '10s',
     animationIterationCount: '1'
   },
   transparentSig: {
