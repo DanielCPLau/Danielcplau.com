@@ -6,12 +6,16 @@ import { Router, Route, browserHistory, IndexRoute } from 'react-router'
 import Contact from '../src/components/Contact';
 import Home from '../src/components/Home';
 import Site from '../src/components/Site';
+import Projects from '../src/components/Projects';
+import About from '../src/components/About';
 
 ReactDOM.render(
 	<Router history={browserHistory}>
 		<Route path='/' component={Site}>
 			<IndexRoute component={Home} />
 			<Route path='contact' component={Contact} />
+			<Route path='about' component={About} />
+			<Route path='projects' component={Projects} />
 		</Route>
 	</Router>
 	, document.querySelector('.container'));
