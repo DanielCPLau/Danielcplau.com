@@ -17,7 +17,6 @@ class Signature extends Component {
     for (var i = 0; i < elemArr.length; i++) {
       this.readdClass(elemArr[i], cssStyleArr[i]);
     }
-    console.log(delayVal);
     setTimeout(function() {elemSvg.classList.remove(css(styles.transparentSig))}, delayVal);
   }
   readdClass(elem, cssStyleAnimation) {
