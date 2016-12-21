@@ -5,7 +5,7 @@ class Contact extends Component {
     return (
       <div >
         <div style={bg}>
-          <img style={img} src="https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/Images/switzerland_alps_mountains_night_beautiful_landscape_99817_1600x1200.jpg"/>
+          <img style={img} src="https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/Site%201.0/Images/switzerland_alps_mountains_night_beautiful_landscape_99817_1600x1200.jpg"/>
         </div>
         <div style={marginStyle}>
           <div style={titleBorderStyle}>

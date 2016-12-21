@@ -15,7 +15,7 @@ class Home extends Component {
     };
 		return (
 			<div>
-				<div style={bg}><img style={img} src='https://raw.githubusercontent.com/BluesBleu/Danielcplau.com/gh-pages/Images/imageedit_1_2585037376.jpg'/></div>
+				<div style={bg}><img style={img} src='https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/Site%201.0/Images/imageedit_1_2585037376.jpg'/></div>
 				<div style={sigStyle}><Signature/></div>
 			</div>
 		)
