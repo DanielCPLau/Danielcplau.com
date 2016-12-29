@@ -48,7 +48,7 @@ var sigStyle = {
   marginRight: 'auto',
   left: '0',
   right: '0',
-  marginTop: '450px'
+  marginTop: '290px'
 }
 
 export default Home;
