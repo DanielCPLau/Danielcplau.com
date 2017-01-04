@@ -7,11 +7,11 @@ class NavBar extends Component {
 			<nav className='navbar-fixed-top'>
 			  <div className='container-fluid'>
 			    <ul style={ulnav}>
-			      <Link to='/'><li style={navbarli}><a style={navfont} href="#home">HOME</a></li></Link>
-			      <Link to='/about'><li style={navbarli}><a style={navfont} href="#about">ABOUT</a></li></Link>
+			      <Link to='/'><li style={navbarli}><div style={navfont} href="#home">HOME</div></li></Link>
+			      <Link to='/about'><li style={navbarli}><div style={navfont} href="#about">ABOUT</div></li></Link>
 			      <Link to='/'><li style={navbarli}><h1 style={navbarHeader}>DC|PL</h1></li></Link>
-			      <Link to='/projects'><li style={navbarli}><a style={navfont} href="#projects">PROJECTS</a></li></Link>
-			      <Link to='/contact'><li style={navbarli}><a style={navfont} href="#connect">CONTACT</a></li></Link>
+			      <Link to='/projects'><li style={navbarli}><div style={navfont} href="#projects">PROJECTS</div></li></Link>
+			      <Link to='/contact'><li style={navbarli}><div style={navfont} href="#connect">CONTACT</div></li></Link>
 			    </ul>
 			  </div>
 			</nav>

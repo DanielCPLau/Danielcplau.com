@@ -33,7 +33,7 @@ class Signature extends Component {
   render() {
     return (
       <div>
-        <svg className={css(styles.transparentSig)} ref="svg" onClick={this.restartAnimation.bind(this, 650)} width="406" height="367" xmlns="http://www.w3.org/2000/svg">
+        <svg className={css(styles.transparentSig)} ref="svg" onClick={this.restartAnimation.bind(this, 650)} width="406" height="350" xmlns="http://www.w3.org/2000/svg">
           <g>
             <title>Layer 1</title>
 
