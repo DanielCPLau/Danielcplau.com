@@ -3,19 +3,18 @@ import React, { Component } from 'react';
 class Contact extends Component {
   constructor() {
     super();
-    this.state = { imageLoaded: false };
+    this.state = { contactLoaded: false };
   }
-  handleImageLoaded() {
-    console.log("loaded")
-    this.setState({ imageLoaded: true });
+  handleContactLoaded() {
+    this.setState({ contactLoaded: true });
   }
   render() {
     return (
       <div >
         <div style={bg}>
-          <img style={img} src="https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/Site%201.0/Images/switzerland_alps_mountains_night_beautiful_landscape_99817_1600x1200.jpg" onLoad={this.handleImageLoaded.bind(this)} />
+          <img style={img} src="https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/Site%201.0/Images/switzerland_alps_mountains_night_beautiful_landscape_99817_1600x1200.jpg" onLoad={this.handleContactLoaded.bind(this)} />
         </div>
-        {this.state.imageLoaded ?
+        {this.state.contactLoaded ?
         <div>
           <div style={marginStyle}>
             <div style={titleBorderStyle}>
