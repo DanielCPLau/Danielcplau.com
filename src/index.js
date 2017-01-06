@@ -14,7 +14,6 @@ ReactDOM.render(
 		<Route path='/' component={Site}>
 			<IndexRoute component={Home} />
 			<Route path='contact' component={Contact} />
-			<Route path='about' component={About} />
 			<Route path='projects' component={Projects} />
 		</Route>
 	</Router>
