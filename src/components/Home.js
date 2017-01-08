@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Slider from 'react-slick';
-import Signature from './Signature';
+
+import About from './About';
 
 class Home extends Component {
   constructor() {
@@ -24,8 +25,8 @@ class Home extends Component {
 				<div style={bg}><img style={img} onLoad={this.handleHomeLoaded.bind(this)} src='https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/Site%201.0/Images/san-francisco-52.jpg'/></div>
 				{this.state.homeLoaded &&
         <div>
-          <div style={sigStyle}><Signature/></div>
-          <div style={textStyle}> SF </div>
+          <div style={aboutStyle} className="col-md-4"><About /></div>
+          <div style={textStyle} className="col-md-4"> SF </div>
 			  </div> }
 		  </div>
     )
@@ -52,10 +53,10 @@ var img = {
   minHeight: '50%'
 }
 
-var sigStyle = {
+var aboutStyle = {
   zIndex: '2',
   position: 'absolute',
-  bottom: '0',
+  top: '50',
   right: '0'
 }
 
