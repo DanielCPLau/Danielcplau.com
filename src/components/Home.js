@@ -24,10 +24,8 @@ class Home extends Component {
 			<div>
 				<div style={bg}><img style={img} onLoad={this.handleHomeLoaded.bind(this)} src='https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/Site%201.0/Images/san-francisco-52.jpg'/></div>
 				{this.state.homeLoaded &&
-        <div>
-          <div style={aboutStyle} className="col-md-4"><About /></div>
-          <div style={textStyle} className="col-md-4"> SF </div>
-			  </div> }
+          <div style={aboutStyle}><About /></div> }
+          <div style={textStyle}> SF </div>
 		  </div>
     )
 	}
@@ -37,8 +35,8 @@ var bg = {
   position: 'fixed',
   top: '-50%',
   left: '-50%', 
-  width: '200%', 
-  height: '200%',
+  width: '230%', 
+  height: '270%',
 }
 
 var img = {
@@ -56,15 +54,14 @@ var img = {
 var aboutStyle = {
   zIndex: '2',
   position: 'absolute',
-  top: '50',
-  right: '0'
+  maxWidth: '35%'
 }
 
 var textStyle = {
   zIndex: 2,
   position: 'absolute',
   bottom: 60,
-  left: 60,
+  right: 60,
   color: 'white',
   fontSize: '65px',
   fontFamily: 'Oswald'

@@ -13,9 +13,7 @@ class Projects extends Component {
 		return (
 			<div>
 				<div style={divStyle}>
-					<br/>
-					All my personal projects can be view over at my github repository. <br/>
-					Soon they'll be displayed here, but for now head over <a href="https://www.github.com/danielcplau" target="_blank">here</a>
+
 				</div>
 				<Carousel />
 			</div>
@@ -24,7 +22,7 @@ class Projects extends Component {
 }
 
 var divStyle = {
-	height: '75px',
+	height: '80px',
 	background: '#43857C',
 	width:'100vw',
 	marginLeft: 'calc(-50vw + 50%)'

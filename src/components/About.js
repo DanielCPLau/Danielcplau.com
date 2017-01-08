@@ -5,18 +5,53 @@ class About extends Component {
 	render() {
 		return (
 			<div style={divStyle}>
-				If you're reading this, you're here early! Faster than I can even roll out my latest update. <br/>
-				Hopefully the next time you check in, this will be completed. <br/>
 				<br/>
-
-				My name is Daniel Lau and here is my <a target="_blank" href="https://drive.google.com/file/d/0B6Bj3XDLYFAQaE9ubDVsN0hpLUU/view?usp=sharing">resume</a>.
+				<br/>
+				<br/>
+				<div style={imgDiv}><img style={imgStyle} src="https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/static/about.png" /></div>
+				<br/>
+				<br/>
+				<div style={textStyle}>
+					Hey, my name is Daniel Lau. <br/>
+					At the moment I'm in college (Computer Science, BS, UCSD 19') <br/> <br/>
+					This site is my professional portfolio, as well as a creative outlet. <br/>
+					I like to think of this site as a reflection 
+					of myself as I trek through life. As I learn and experience 
+					more, this place will transform as well! <br/>
+					<br/>
+					<br/>
+					Enjoy!
+				</div>
 				<Signature />
+				<div style={psStyle}>P.S. click the signature to make it draw itself again & again!</div>
 			</div>
 		)
 	}
 }
 
 var divStyle = {
-	background: '#FF9f60'
+	backgroundColor: 'transparent',
+	backgroundColor: 'rgba(0,0,0,.55)'
+}
+
+var imgDiv = {
+	textAlign: 'center'
+}
+
+var imgStyle = {
+	maxWidth: '26%'
+}
+
+var textStyle = {
+	fontFamily: 'Ubuntu',
+	marginLeft: '8px',
+	color: 'white'
+}
+
+var psStyle = {
+	fontFamily: 'Ubuntu',
+	marginLeft: '8px',
+	color: 'white',
+	fontSize: '12px'
 }
 export default About;
