@@ -32,7 +32,7 @@ class Signature extends Component {
   }
   render() {
     return (
-      <div style={sigStyle}>
+      <div>
         <svg className={css(styles.transparentSig)} ref="svg" onClick={this.restartAnimation.bind(this, 650)} viewBox="-56 70 740 330" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
           <g>
             <title>Layer 1</title>
@@ -180,9 +180,5 @@ const styles = StyleSheet.create({
     opacity: 1
   }
 });
-
-var sigStyle = {
-
-}
 
 export default Signature;

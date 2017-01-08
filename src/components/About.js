@@ -2,36 +2,43 @@ import React, { Component } from 'react';
 import Signature from './Signature';
 
 class About extends Component {
+	constructor() {
+    super();
+    this.state = { selfLoaded: false };
+  }
+  handleSelfLoaded() {
+  	var elemShade = this.refs.shade;
+  	elemShade.style.backgroundColor = 'rgba(0,0,0,.55)';
+    this.setState({ selfLoaded: true });
+  }
 	render() {
 		return (
-			<div style={divStyle}>
+			<div ref="shade">
 				<br/>
 				<br/>
 				<br/>
-				<div style={imgDiv}><img style={imgStyle} src="https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/static/about.png" /></div>
+				<div style={imgDiv}><img style={imgStyle} onLoad={this.handleSelfLoaded.bind(this)} src="https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/static/about.png" /></div>
 				<br/>
 				<br/>
-				<div style={textStyle}>
-					Hey, my name is Daniel Lau. <br/>
-					At the moment I'm in college (Computer Science, BS, UCSD 19') <br/> <br/>
-					This site is my professional portfolio, as well as a creative outlet. <br/>
-					I like to think of this site as a reflection 
-					of myself as I trek through life. As I learn and experience 
-					more, this place will transform as well! <br/>
-					<br/>
-					<br/>
-					Enjoy!
-				</div>
-				<Signature />
-				<div style={psStyle}>P.S. click the signature to make it draw itself again & again!</div>
+				{this.state.selfLoaded &&
+				<div>
+					<div style={textStyle}>
+						Hey, my name is Daniel Lau. <br/>
+						At the moment I'm in college (Computer Science B.S. UCSD 19') <br/> <br/>
+						This site is my professional portfolio, as well as a creative outlet. <br/>
+						I like to think of this site as a reflection 
+						of myself as I trek through life. As I learn and experience 
+						more, this place will transform as well! <br/>
+						<br/>
+						<br/>
+						Enjoy!
+					</div>
+					<Signature />
+					<div style={psStyle}>P.S. click the signature to make it draw itself again & again!</div>
+				</div> }
 			</div>
 		)
 	}
-}
-
-var divStyle = {
-	backgroundColor: 'transparent',
-	backgroundColor: 'rgba(0,0,0,.55)'
 }
 
 var imgDiv = {
