@@ -14,7 +14,7 @@ ReactDOM.render(
 		<Route path='/' component={Site}>
 			<IndexRoute component={Home} />
 			<Route path='contact' component={Contact} />
-			<Route path='projects' component={Projects} />
 		</Route>
+		<Route path='/projects' component={Projects} />
 	</Router>
 	, document.querySelector('.container'));

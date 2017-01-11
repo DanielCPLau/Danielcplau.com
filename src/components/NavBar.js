@@ -3,8 +3,13 @@ import { Link } from 'react-router';
 
 class NavBar extends Component {
 	render() {
+    var fixedTop = 'navbar-fixed-top';
+    console.log(this.props.fixed)
+    if (this.props.fixed === "yes") {
+      fixedTop = 'navbar';
+    }
 		return (
-			<nav className='navbar-fixed-top'>
+			<nav className={fixedTop}>
 			  <div className='container-fluid'>
 			    <ul style={ulnav}>
 			      <Link to='/'><li style={navbarli}><div style={navfont} href="#home">HOME</div></li></Link>

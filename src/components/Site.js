@@ -6,7 +6,7 @@ class Site extends Component {
 	render() {
 		return (
 			<div style={fullPageStyle}>
-				<NavBar/>
+				<NavBar fixed={"no"} />
 				{this.props.children}
 			</div>
 		)

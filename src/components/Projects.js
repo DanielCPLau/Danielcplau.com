@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Carousel from './Carousel';
+import Portfolio from './Portfolio';
+import NavBar from './NavBar';
 
 class Projects extends Component {
 	render() {
@@ -12,10 +13,11 @@ class Projects extends Component {
     };
 		return (
 			<div>
-				<div style={divStyle}>
-
+				<div style={divStyle} >
+					<NavBar fixed={"yes"} />
 				</div>
-				<Carousel />
+	
+				<Portfolio />
 			</div>
 		)
 	}
