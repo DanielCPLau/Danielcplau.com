@@ -4,7 +4,6 @@ import { Link } from 'react-router';
 class NavBar extends Component {
 	render() {
     var fixedTop = 'navbar-fixed-top';
-    console.log(this.props.fixed)
     if (this.props.fixed === "yes") {
       fixedTop = 'navbar';
     }
@@ -34,7 +33,7 @@ var navbarHeader = {
 var ulnav = {
   listStyleType: 'none',
   margin: '0 auto',
-  width: '750px',
+  width: '713px',
   padding: '0 auto',
   overflow: 'hidden',
   WebkitTouchCallout: 'none',

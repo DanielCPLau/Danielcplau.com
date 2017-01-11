@@ -16,7 +16,6 @@ class Projects extends Component {
 				<div style={divStyle} >
 					<NavBar fixed={"yes"} />
 				</div>
-	
 				<Portfolio />
 			</div>
 		)
