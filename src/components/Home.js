@@ -36,7 +36,7 @@ var bg = {
   top: '-50%',
   left: '-50%', 
   width: '230%', 
-  height: '270%',
+  height: '190%',
 }
 
 var img = {
@@ -60,8 +60,8 @@ var aboutStyle = {
 var textStyle = {
   zIndex: 2,
   position: 'absolute',
-  bottom: 60,
-  right: 60,
+  bottom: 160,
+  right: 200,
   color: 'white',
   fontSize: '65px',
   fontFamily: 'Oswald'
