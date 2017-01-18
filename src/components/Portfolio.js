@@ -13,7 +13,7 @@ class Portfolio extends Component {
         <div className="row">
           <div className="col-md-6 portfolio-item">
             <h3 style={projectTitle}>
-              <a href="https://github.com/DanielCPLau/MTS-UCSD-App" target="_blank">MTS+UCSD Bus App</a>
+              <a href="https://github.com/DanielCPLau/MTS-UCSD-App" target="_blank">Triton Transit Mobile App</a>
             </h3>
             <br/>
             <img className="img-responsive" src="http://i.imgur.com/eIik97t.png" alt="" />
@@ -65,7 +65,7 @@ class Portfolio extends Component {
           <div className="col-md-6 portfolio-item">
             <img className="img-responsive" src="http://lorempixel.com/800/400/city" alt=""/>
             <h3 style={projectTitle} >
-              <a href="#">In Progress :)</a>
+              <a href="#">In Progress!</a>
             </h3>
             <br/>
             <p style={textStyle}></p>
@@ -73,7 +73,7 @@ class Portfolio extends Component {
           <div className="col-md-6 portfolio-item">
             <img className="img-responsive" src="http://lorempixel.com/800/400/city" alt=""/>
             <h3 style={projectTitle} >
-              <a href="#">In Progress :)</a>
+              <a href="#">In Progress!</a>
             </h3>
             <br/>
             <p style={textStyle}></p>
