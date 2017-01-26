@@ -11,24 +11,16 @@ class Home extends Component {
   handleHomeLoaded() {
     this.setState({ homeLoaded: true });
   }
-	render() {
-		var settings = {
-      dots: true,
-      infinite: true,
-      speed: 800,
-      autoplay: true,
-      accessibility: true,
-      fade: true
-    };
-		return (
-			<div>
-				<div style={bg}><img style={img} onLoad={this.handleHomeLoaded.bind(this)} src='https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/Site%201.0/Images/san-francisco-52.jpg'/></div>
-				{this.state.homeLoaded &&
+  render() {
+    return (
+      <div>
+        <div style={bg}><img style={img} onLoad={this.handleHomeLoaded.bind(this)} src='https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/Site%201.0/Images/san-francisco-52.jpg'/></div>
+        {this.state.homeLoaded &&
           <div style={aboutStyle}><About /></div> }
           <div style={textStyle}> SF </div>
-		  </div>
+      </div>
     )
-	}
+  }
 }
 
 var bg = {

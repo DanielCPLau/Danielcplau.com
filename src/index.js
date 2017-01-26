@@ -10,11 +10,11 @@ import Projects from '../src/components/Projects';
 import About from '../src/components/About';
 
 ReactDOM.render(
-	<Router history={hashHistory}>
-		<Route path='/' component={Site}>
-			<IndexRoute component={Home} />
-			<Route path='contact' component={Contact} />
-		</Route>
-		<Route path='/projects' component={Projects} />
-	</Router>
-	, document.querySelector('.container'));
+  <Router history={hashHistory}>
+    <Route path='/' component={Site}>
+      <IndexRoute component={Home} />
+      <Route path='contact' component={Contact} />
+    </Route>
+    <Route path='/projects' component={Projects} />
+  </Router>
+  , document.querySelector('.container'));

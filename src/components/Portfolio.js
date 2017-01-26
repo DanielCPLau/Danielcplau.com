@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Portfolio extends Component {
   render() {
     return (
-    	/** Credits to Quackit.com for template **/
+      /** Credits to Quackit.com for template **/
       <div className="container">
         <div className="row">
           <div className="col-lg-12" style={projectTitle} >
@@ -20,7 +20,7 @@ class Portfolio extends Component {
             <br/>
             <br/>
             <p style={textStyle}>An app made to intertwine campus and local bus routes and times together. Lets you view buses near your location, maps of bus routes, favorite 
-            	 bus stops, as well as view specific bus times for stops.</p>
+               bus stops, as well as view specific bus times for stops.</p>
           </div>
           <div className="col-md-6 portfolio-item">
             <h3 style={projectTitle} >
@@ -31,7 +31,7 @@ class Portfolio extends Component {
             <br/>
             <br/>
             <p style={textStyle}>A youtube player that immediately loads the first item in search term as you type. Has wider screen than YouTube offers on its website. 
-            	 Features that are to be added : playlist system, most likely to be used as a music list such as Spotify ; Theater Mode. 
+               Features that are to be added : playlist system, most likely to be used as a music list such as Spotify ; Theater Mode. 
             </p>
           </div>
         </div>
@@ -85,16 +85,16 @@ class Portfolio extends Component {
 }
 
 var headerText = {
-	fontFamily: 'Ubuntu'
+  fontFamily: 'Ubuntu'
 }
 
 var projectTitle = {
-	textAlign: 'center'
+  textAlign: 'center'
 }
 
 var textStyle = {
-	fontFamily: 'Raleway',
-	fontSize: '17px'
+  fontFamily: 'Raleway',
+  fontSize: '17px'
 }
 
 export default Portfolio;

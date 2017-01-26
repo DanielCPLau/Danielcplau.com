@@ -2,25 +2,25 @@ import React, { Component } from 'react';
 import { Link } from 'react-router';
 
 class NavBar extends Component {
-	render() {
+  render() {
     var fixedTop = 'navbar-fixed-top';
     if (this.props.fixed === "yes") {
       fixedTop = 'navbar';
     }
-		return (
-			<nav className={fixedTop}>
-			  <div className='container-fluid'>
-			    <ul style={ulnav}>
-			      <Link to='/'><li style={navbarli}><div style={navfont} href="#home">HOME</div></li></Link>
-			      <a href="https://drive.google.com/file/d/0B6Bj3XDLYFAQNl9zUVg5WC1zQlU/view?usp=sharing" target="_blank"><li style={navbarli}><div style={navfont} href="#about">RESUME</div></li></a>
-			      <Link to='/'><li style={navbarli}><h1 style={navbarHeader}>DC|PL</h1></li></Link>
-			      <Link to='/projects'><li style={navbarli}><div style={navfont} href="#projects">PROJECTS</div></li></Link>
-			      <Link to='/contact'><li style={navbarli}><div style={navfont} href="#connect">CONTACT</div></li></Link>
-			    </ul>
-			  </div>
-			</nav>
-		)
-	}
+    return (
+      <nav className={fixedTop}>
+        <div className='container-fluid'>
+          <ul style={ulnav}>
+            <Link to='/'><li style={navbarli}><div style={navfont} href="#home">HOME</div></li></Link>
+            <a href="https://drive.google.com/file/d/0B6Bj3XDLYFAQNl9zUVg5WC1zQlU/view?usp=sharing" target="_blank"><li style={navbarli}><div style={navfont} href="#about">RESUME</div></li></a>
+            <Link to='/'><li style={navbarli}><h1 style={navbarHeader}>DC|PL</h1></li></Link>
+            <Link to='/projects'><li style={navbarli}><div style={navfont} href="#projects">PROJECTS</div></li></Link>
+            <Link to='/contact'><li style={navbarli}><div style={navfont} href="#connect">CONTACT</div></li></Link>
+          </ul>
+        </div>
+      </nav>
+    )
+  }
 }
 
 var navbarHeader = {
