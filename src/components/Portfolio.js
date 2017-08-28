@@ -4,7 +4,7 @@ class Portfolio extends Component {
   render() {
     return (
       /** Credits to Quackit.com for template **/
-      <div className="container">
+      <div className="container" style={{overflowX: 'hidden', overflowY: 'auto'}}>
         <div className="row">
           <div className="col-lg-12" style={projectTitle} >
             <h1 className="page-header" style={headerText}>Projects (<a href="https://www.github.com/danielcplau" target="_blank">Github</a>)</h1>
