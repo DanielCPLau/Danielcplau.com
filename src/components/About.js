@@ -25,13 +25,12 @@ class About extends Component {
           <div style={textStyle}>
             Hey, my name is Daniel Lau. <br/>
             At the moment I'm in college (Computer Science B.S. UCSD 19') <br/> <br/>
-            This site is my professional portfolio, as well as a creative outlet. <br/>
+            This site is my portfolio, as well as a creative outlet. <br/>
             I like to think of this site as a reflection 
             of myself as I trek through life. As I learn and experience 
             more, this place will transform as well! <br/>
             <br/>
-            <br/>
-            Enjoy!
+            Feel free to shoot me a message!
           </div>
           <Signature />
           <div style={psStyle}>P.S. click the signature to make it draw itself again & again!</div>
