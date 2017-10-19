@@ -35,7 +35,7 @@ class Signature extends Component {
       <div>
         <svg className={css(styles.transparentSig)} ref="svg" onClick={this.restartAnimation.bind(this, 650)} viewBox="-56 70 740 330" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
           <g>
-            <title>Layer 1</title>
+            <title>DanielCPLau.com - Home</title>
 
             <path style={strokeD1} ref="D1" d="m55.5,134c0,1 0,3 0,6c0,5 0,9 0,15c0,6 0,13 0,21c0,8 0,17 0,27c0,11 0,21 0,32c0,11 0,21 0,29c0,8 0,14 0,18l0,4l0,3l0,1" id="svg_206" fillOpacity="null" strokeOpacity="null" strokeWidth="4" stroke="#eff0f2" fill="none"/>
 
