@@ -23,12 +23,9 @@ class About extends Component {
         {this.state.selfLoaded &&
         <div>
           <div style={textStyle}>
-            Hey, my name is Daniel Lau. <br/>
-            At the moment I'm in college (Computer Science B.S. UCSD 19') <br/> <br/>
-            This site is my portfolio, as well as a creative outlet. <br/>
-            I like to think of this site as a reflection 
-            of myself as I trek through life. As I learn and experience 
-            more, this place will transform as well! <br/>
+            Hey, my name is Daniel. <br/>
+            I'm nearly done with college. (Computer Science B.S. UCSD 19') <br/> <br/>
+            This site gets random updates as time passes. <br/>
             <br/>
             Feel free to shoot me a message!
           </div>
