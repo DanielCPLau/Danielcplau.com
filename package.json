@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
-    "bundle": "webpack -CLI && mv -f dist/bundle.js static/bundle.js && rmdir dist"
+    "bundle": "webpack -CLI && mv -f dist/bundle.js ./bundle.js && rmdir dist"
   },
   "repository": {
     "type": "git",
