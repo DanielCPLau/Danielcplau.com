@@ -15,7 +15,7 @@ class Home extends Component {
       <div>
         <div style={bg}><img style={img} onLoad={this.handleHomeLoaded.bind(this)} src='https://raw.githubusercontent.com/DanielCPLau/Danielcplau.com/gh-pages/Site%201.0/Images/san-francisco-52.jpg'/></div>
         {this.state.homeLoaded &&
-          <div style={aboutStyle}><About /></div> }
+          <div style={aboutStyle}><About/></div> }
       </div>
     )
   }
@@ -44,7 +44,8 @@ var img = {
 var aboutStyle = {
   zIndex: '2',
   position: 'absolute',
-  maxWidth: '35%'
+  maxWidth: '30%',
+  marginTop: '8%'
 }
 
 var textStyle = {

@@ -2,12 +2,11 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import NavBar from './NavBar';
 
-class Site extends Component {
+class Header extends Component {
   render() {
     return (
       <div style={fullPageStyle}>
         <NavBar fixed={"no"} />
-        {this.props.children}
       </div>
     )
   }
@@ -18,4 +17,4 @@ var fullPageStyle = {
   marginLeft: 'calc(-50vw + 50%)'
 }
 
-export default Site;
+export default Header;

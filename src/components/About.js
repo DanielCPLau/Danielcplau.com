@@ -24,8 +24,6 @@ class About extends Component {
         <div>
           <div style={textStyle}>
             Hey, my name is Daniel. <br/>
-            I'm currently taking a break to do a couple internships before wrapping up college. <br/>
-            (Computer Science B.S. UCSD (Spring 2019) <br/> <br/>
             This site gets random updates as time passes (totally due for an entire rewrite when I find the time). <br/>
             <br/>
             Feel free to shoot me a message!

@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Router, Route, hashHistory, IndexRoute } from 'react-router'
+import { Route, BrowserRouter } from 'react-router-dom'
 
 //routes
 import Contact from '../src/components/Contact';
 import Home from '../src/components/Home';
-import Site from '../src/components/Site';
 import Projects from '../src/components/Projects';
-import About from '../src/components/About';
+import Header from '../src/components/Header';
 
 ReactDOM.render(
-  <Router history={hashHistory}>
-    <Route path='/' component={Site}>
-      <IndexRoute component={Home} />
-      <Route path='contact' component={Contact} />
-    </Route>
-    <Route path='/projects' component={Projects} />
-  </Router>
+  <BrowserRouter basename='/Danielcplau.com'>
+    <div>
+      <Header/>
+      <Route exact path='/' component={Home}/>
+      <Route path='/contact' component={Contact} />
+      <Route path='/projects' component={Projects} />
+    </div>
+  </BrowserRouter>
   , document.querySelector('.container'));
